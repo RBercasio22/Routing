@@ -27,7 +27,7 @@
         href="https://vuetifyjs.com/about/licensing/"
         rel="noopener noreferrer"
         target="_blank"
-        
+    
       >
         MIT License
       </a>

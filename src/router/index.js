@@ -7,8 +7,9 @@
 
 // Composables
 import HelloWorld from '@/components/HelloWorld.vue'
-import About from '@/components/About.vue'
+import Post from '@/components/Post.vue'
 import Card from '@/components/Card.vue'
+import Dashboard from '@/components/Dashboard.vue'
 import { createRouter, createWebHistory } from 'vue-router/auto'
 import { routes } from 'vue-router/auto-routes'
 
@@ -19,8 +20,9 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes : [
     { path: '/Hello', component: HelloWorld },
-    { path: '/About', component: About },
+    { path: '/Post', component: Post },
     { path: '/Card', component: Card },
+    { path: '/Dashboard', component: Dashboard },
 
    
   ]
